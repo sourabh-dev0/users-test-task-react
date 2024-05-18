@@ -1,4 +1,4 @@
-# Next.js User Management Application
+# React.js(Next,js) User Management Application
 
 This is a Next.js application for managing users. It allows you to create, view, edit, and delete users. The application fetches initial user data from a placeholder API and uses Redux for state management.
 
