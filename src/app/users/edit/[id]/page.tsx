@@ -43,7 +43,7 @@ export default function UserEdit() {
 
   useEffect(() => {
     if (!user) {
-      router.push('/users'); // Redirect if user not found
+      router.push('/users'); 
     }
   }, [user, router]);
 

@@ -24,7 +24,7 @@ export default function UserCreate() {
     e.preventDefault();
     if (name && username && email && phone && website && street && suite && city && zipcode && companyName && catchPhrase && bs) {
       const newUser = {
-        id: Date.now(), // Temporary ID until it's set by the backend
+        id: Date.now(), 
         name,
         username,
         email,
